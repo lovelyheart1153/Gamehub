@@ -16,6 +16,7 @@ const GameGrid = () => {
                md: 2,
                lg: 2,
                xl: 3,
+               "2xl": 5,
             }}
             spacing={8}
             p="15px"
