@@ -6,13 +6,15 @@ import {
    Skeleton,
    SkeletonCircle,
 } from "@chakra-ui/react";
+import GameCardContainer from "./GameCardContainer";
+import GameCardImageContainer from "./GameCardImageContainer";
 
 const GameCardSkeleton = () => {
    return (
-      <Card height="400px" width="400px" borderRadius={8} overflow="hidden">
-         <Box height="230px">
+      <GameCardContainer>
+         <GameCardImageContainer>
             <Skeleton height="100%" width="100%" />
-         </Box>
+         </GameCardImageContainer>
          <CardBody>
             <HStack justifyContent="space-between" marginY={3}>
                <HStack>
@@ -27,7 +29,7 @@ const GameCardSkeleton = () => {
             <Skeleton height="20px" marginY={3} />
             <Skeleton height="20px" />
          </CardBody>
-      </Card>
+      </GameCardContainer>
    );
 };
 
