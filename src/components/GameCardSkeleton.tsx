@@ -1,11 +1,4 @@
-import {
-   Box,
-   Card,
-   CardBody,
-   HStack,
-   Skeleton,
-   SkeletonCircle,
-} from "@chakra-ui/react";
+import { CardBody, HStack, Skeleton, SkeletonCircle } from "@chakra-ui/react";
 import GameCardContainer from "./GameCardContainer";
 import GameCardImageContainer from "./GameCardImageContainer";
 
